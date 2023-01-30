@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <!-- displays site properly based on user's device -->
+
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./assets/images/favicon-32x32.png"
+    />
+    <link rel="stylesheet" href="/dist/output.css" />
+
+    <title>Frontend Mentor | Notifications page</title>
+
+  </head>
+  <body class="bg-slate-300 flex flex-col items-center justify-center h-screen">
+    <section
+      class="container flex items-center justify-center px-4 bg-white rounded-md h-fit md:max-w-screen-md "
+    >
+    <div>
+      <div class="flex items-center justify-between w-full mt-10 h-[80px] md:mt-2">
+        <div class="flex items-center gap-3">
+          <h1 class="font-bold">Notifications</h1>
+          <span id="un-read" class="bg-blue-900 py-1 px-3 text-white rounded-lg font-bold">3</span>
+        </div>
+
+        <button id="mark-read" type="button">Mark all as read</button>
+      </div>
+
+      <section class="flex flex-col gap-5">
+        <div class="flex gap-2 bg-slate-200 p-3 rounded-md">
+          <img
+          class="h-full w-9"
+            src="/assets/images/avatar-mark-webber.webp"
+            alt="Profile Pictures Mark Webber"
+          />
+          <p><span class="font-bold">Mark Webber</span>
+            react to your recent post
+            <span class="font-bold">My first tournament today!</span>
+            <br><span>1m ago</span>
+          </p>
+        </div>
+
+        <div class="flex gap-2 bg-slate-200 p-3 rounded-md">
+          <img
+          class="h-full w-9"
+            src="/assets/images/avatar-angela-gray.webp"
+            alt="Profile Pictures Angela Gray"
+          />
+          <p><span class="font-bold">Angela Gray</span>
+            followed you <br><span>5m ago</span>
+          </p>
+        </div>
+
+        <div class="flex gap-2 bg-slate-200 p-3 rounded-md">
+          <img
+          class="h-full w-9"
+            src="/assets/images/avatar-jacob-thompson.webp"
+            alt="Profile Pictures Jacob Thompson"
+          />
+          <p><span class="font-bold">Mark Webber</span>
+            has joined your group <span class="text-blue-800 font-bold">Chess Club</span>
+            <br><span>1 day ago</span>
+          </p>
+        </div>
+
+        
+
+        <div class="flex gap-2 p-3 rounded-md">
+          <img
+          class="h-full w-9"
+            src="/assets/images/avatar-rizky-hasanuddin.webp"
+            alt="Profile Pictures Rizky Hasanuddin"
+          />
+          <div>
+            <p><span class="font-bold">Rizky Hasanuddin</span>
+              sent you a private message
+             <span>1 day ago</span>
+            </p>
+
+            <p class="border p-3 mt-3">
+              Hello, thanks for setting up the Chess Club. I've been a member for a few weeks now and I'm already having lots of fun and improving my game.
+             </p>
+          </div>
+        </div>
+
+        <div class="flex gap-2 p-3 rounded-md">
+          <img
+          class="h-full w-9"
+            src="/assets/images/avatar-kimberly-smith.webp"
+            alt="Profile Pictures Kimberly Smith"
+          />
+          <p><span class="font-bold">Kimberly Smith</span>
+           commented on your picture
+           <br>
+           <span>1 week ago</span>
+          </p>
+
+          <img class="h-full w-12" src="../assets/images/image-chess.webp" alt="Commented image chess girl">
+        </div>
+
+        <div class="flex gap-2 p-3 rounded-md">
+          <img
+          class="h-full w-9"
+            src="/assets/images/avatar-nathan-peterson.web"
+            alt="Profile Pictures Nathan Peterson"
+          />
+          <p><span class="font-bold">Nathan Peterson</span>
+            reacted to your recent post <span class="font-bold">5 end-game strategies to increase your win rate</span>
+           <br>
+           <span>2 week ago</span>
+          </p>
+        </div>
+
+        <div class="flex gap-2 p-3 rounded-md">
+          <img
+          class="h-full w-9"
+            src="/assets/images/avatar-anna-kim.webp"
+            alt="Profile Pictures Anna Kim"
+          />
+          <p><span class="font-bold">Anna Kim</span>
+           left the group <span class="text-blue-800 font-bold">Chess Club</span>
+           <br>
+           <span>2 week ago</span>
+          </p>
+        </div>
+      </div>
+      </section>
+    </section>
+   <script src="app.js"></script>
+  </body>
+</html>
